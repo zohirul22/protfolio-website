@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,100&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.nav-items {
+    padding: 50px 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-link>li {
+    list-style: none;
+    margin-left: 25px;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    border: 0px;
+    Width: 150px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: #FFFFFF;
+   font-size: 20px;
+   transition: .5s;
+ 
+}
+.btn-primary:hover{
+    background-color: #fd5b0a;
+    
+}
