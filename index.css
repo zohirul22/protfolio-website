@@ -6,11 +6,29 @@
 
 }
 
+.header {
+    padding: 0px 30px;
+    background-color: #FFF8F3;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-image: url('images/header_bg.png'), url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
 .nav-items {
     padding: 50px 220px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+}
+
+.nav-items h1 {
+    font-size: 45px;
+}
+
+.nav-otp {
+    color: #FD6E0A;
 }
 
 .nav-link {
@@ -27,15 +45,38 @@
 .btn-primary {
     background-color: #FD6E0A;
     border: 0px;
-    Width: 150px;
+    Width: 200px;
     border-radius: 5px;
     padding: 10px 30px;
     color: #FFFFFF;
-   font-size: 20px;
-   transition: .5s;
- 
+    font-size: 20px;
+    transition: .5s;
+
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: #fd5b0a;
-    
+
+}
+
+/************* nav end************* */
+.bannar-section {
+    padding: 30px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bannar-info h1 {
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.bannar-info p {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 30px;
 }
