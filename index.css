@@ -153,3 +153,60 @@
     font-size: 14px;
     color: #757575;
 }
+/* resume */
+.resume-title{
+    font-weight: 700px;
+    color: #181818;
+    font-size: 35px;
+    text-align: center;
+}
+.resume-content{
+    padding: 30px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.education-title{
+    text-align: center;
+color: #0c0202;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+margin: 30px 0px;
+}
+
+.education{
+padding: 0px 40px;
+}
+hr{
+    margin: 20px 0px;
+width: 500px;
+align-items: center;
+}
+.education-part h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.education-part h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.education-part p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 20px;
+
+
+}
+
+.btn{
+margin-left: 570px;
+}
